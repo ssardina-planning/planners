@@ -5,3 +5,4 @@ int *onelits;
 intset *twolits;
 
 void computeinvariants();
+int truep(fma *f);
