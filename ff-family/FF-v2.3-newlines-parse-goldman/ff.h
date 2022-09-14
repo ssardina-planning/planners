@@ -249,7 +249,7 @@
 
 
 
-#define MAX_PLAN_LENGTH 2000
+#define MAX_PLAN_LENGTH 10000
 
 
 
