@@ -19,8 +19,10 @@ Performance results can be found [here](https://fai.cs.uni-saarland.de/hoffmann/
 ## FF Versions
 
 - `ff2.3`: this is the original FF v2.2 as used in the 2nd International Planning Competition, modulo removal of a few minor bugs in the pre-processing phase, plus handling of ADL enhanced goal orderings pruning technique and with the ordering information provided by the Goal Agenda (adapted from Jana Koehler's work).
-- `ff2.3-goldman`: Robert Goldman patched version of FF-v2.3 in which the parser allows newlines within typed lists.
 - `ff2.3-suda`: Martin Suda has contributed a patched version of FF-v2.3 whose parser is supposed to be able to parse larger inputs.
+- `ff2.3-goldman`: Robert Goldman patched version of FF-v2.3 in which the parser allows newlines within typed lists.
+
+**Note:** The versions in this repo (source and binaries) have all had their limits increased as per the `suda` version. So, the version that has all the extensions would be `ff2.3-goldman`.
 
 A run example:
 
